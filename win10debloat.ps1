@@ -1964,10 +1964,10 @@ Function UninstallMsftBloat {
 	Get-AppxPackage -AllUsers "Microsoft.WindowsFeedbackHub" | Remove-AppxPackage
 	Get-AppxPackage -AllUsers "Microsoft.WindowsMaps" | Remove-AppxPackage
 	Get-AppxPackage -AllUsers "Microsoft.WindowsPhone" | Remove-AppxPackage
-	Get-AppxPackage -AllUsers "Microsoft.Windows.Photos" | Remove-AppxPackage
+	# Get-AppxPackage -AllUsers "Microsoft.Windows.Photos" | Remove-AppxPackage
 	Get-AppxPackage -AllUsers "Microsoft.WindowsSoundRecorder" | Remove-AppxPackage
-	Get-AppxPackage -AllUsers "Microsoft.ZuneMusic" | Remove-AppxPackage
-	Get-AppxPackage -AllUsers "Microsoft.ZuneVideo" | Remove-AppxPackage
+	# Get-AppxPackage -AllUsers "Microsoft.ZuneMusic" | Remove-AppxPackage
+	# Get-AppxPackage -AllUsers "Microsoft.ZuneVideo" | Remove-AppxPackage
 }
 
 # Install default Microsoft applications
